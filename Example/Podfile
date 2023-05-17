@@ -4,7 +4,7 @@ platform :ios, '10.0'
 
 target 'WOCServices_Example' do
   pod 'WOCServices', :path => '../'
-  pod 'BeeHive'
+  pod 'BeeHive','1.1.1'
   target 'WOCServices_Tests' do
     inherit! :search_paths
 

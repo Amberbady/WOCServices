@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "WOCProtocolRouter.h"
+#import "WOCServicesTool.h"
 
 FOUNDATION_EXPORT double WOCServicesVersionNumber;
 FOUNDATION_EXPORT const unsigned char WOCServicesVersionString[];

@@ -7,7 +7,7 @@
 //
 
 #import "WOCViewController.h"
-
+#import "BeeHive.h"
 @interface WOCViewController ()
 
 @end

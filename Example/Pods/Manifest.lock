@@ -1,9 +1,9 @@
 PODS:
-  - BeeHive (1.6.0)
+  - BeeHive (1.1.1)
   - WOCServices (0.1.0)
 
 DEPENDENCIES:
-  - BeeHive
+  - BeeHive (= 1.1.1)
   - WOCServices (from `../`)
 
 SPEC REPOS:
@@ -15,9 +15,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+  BeeHive: 81b697e94e1ae0993eccf5388e195f3fbfe707a6
   WOCServices: c9c0ce8a513770f34423f076da84ce54a80246b1
 
-PODFILE CHECKSUM: 4329b1f8bd7448696766d53f4327d7832ae61d33
+PODFILE CHECKSUM: 0818218c928a8b306c0bc2d93c219854ddb4174d
 
 COCOAPODS: 1.12.1
