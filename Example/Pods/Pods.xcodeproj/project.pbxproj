@@ -6,73 +6,165 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		91CE4C8675045F21D67321ACDA452485 /* WOCServices */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F1802F48F171FFD98E7A9BA5AC4380C9 /* Build configuration list for PBXAggregateTarget "WOCServices" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WOCServices;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		09E8F38BF63014B9617611F816F031BB /* Pods-WOCServices_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED2A7C8BF968A4E3229B4A338691716D /* Pods-WOCServices_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B22A469708DACA4F800E51B8894FA94 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A6C9043EF3174620760018D3F2893B /* ReplaceMe.m */; };
-		1D7726A685117567C183555622B045E1 /* Pods-WOCServices_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75357998F1AA307E514F326B4C36B26A /* Pods-WOCServices_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19AFBCBF61D3D21D0540A147EE5D0174 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */; };
+		1ACA84460C2EF588F1E795846987A002 /* BHCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B7B5F934245240B05CEFC7A2BE8B566 /* BHCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		204A1C21FF02F13E5ECDAFAC3A557C71 /* BHAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB96D3C16FE3AF5D12410DB4E5DC2F6 /* BHAnnotation.m */; };
+		22EEEDFF80329C63A742FE471B71188F /* BHServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFD5BCC8C94071CBE9CCA005A7931ED /* BHServiceManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6BD9ED14E5509C60BE6CC2E8A7E474 /* BeeHive.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 01ABDD3BC60A5B67E0D20B2D4D8DE960 /* BeeHive.bundle */; };
+		345A63C45C1148F9FB999EF34A6862E4 /* BHConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 19925C958C14919F5AC585D36DC2CD64 /* BHConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3787D7D175659EF4921BD88CE6F51656 /* Pods-WOCServices_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F72CBF38139FDDDDDD595F3026176BDF /* Pods-WOCServices_Tests-dummy.m */; };
-		4DC99F444DC6783F3A18BBDBE5A3D9AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		58586708BD0EFC0DAEAA56EA05175887 /* WOCServices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC60AEA1933466D23FCEC655E92FF0CD /* WOCServices-dummy.m */; };
-		6E6B20C2D1D09EF651FB975D18496A0D /* WOCServices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8311B4033F0F106EC1B5D6B8B03185CE /* WOCServices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F3533A07408F44B900B89B7823D09B0 /* Pods-WOCServices_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAB920112C65F23B5E5E02C588F750B /* Pods-WOCServices_Example-dummy.m */; };
-		CAF0119BC0D8B308C7C0930E948F99B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E53DBA631561FEBD27E2811993C37016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		37AF72385FEE12A05F230D5646C228CB /* BHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B15C810E5A5BBFAB535A9C9B9EE204 /* BHConfig.m */; };
+		408903E4378F6618845188A159CF311B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		4897811A953FB76418D9997B3D505CE6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */; };
+		4AFE40CADE104D72CEF74333EA67D3DE /* BHModuleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 881CB1570CCAF1A5AFCC231389FB0DE9 /* BHModuleManager.m */; };
+		4DF04CF0AF59E16719D13B6CBCE41E0F /* BHRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9937D5E3B0C0F3E989BBBE35AE86891F /* BHRouter.m */; };
+		4EA871BAEFB248593090D7ACE1D7DA4E /* BeeHive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB740FFFF8AAC7216D9416101C5B589 /* BeeHive-dummy.m */; };
+		4EF874A792214C851B8C0C577231A12B /* BHServiceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DC86BE39A76D5BEA9DC1524EC1B3FD /* BHServiceProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57D896DB7DF96AA9EA6ADAF14F4E2D4C /* BeeHive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D18192038B4453C0B566BB3B2DA012 /* BeeHive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61F14E8FEB83257D1789017C507B3E66 /* BHServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 169121A4EDDFB6A5D9B0F695FCD7A3BC /* BHServiceManager.m */; };
+		67EAB9C1E4BAB57855D3A49F3F3E2D5F /* BHWatchDog.m in Sources */ = {isa = PBXBuildFile; fileRef = C568745E0926A27A94F5660EBF91554F /* BHWatchDog.m */; };
+		795C534BD0E6597278D7553B387FA6A3 /* BHModuleManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D9185DB9C91355D2637923D70F9D31 /* BHModuleManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A74DB87CF182A9CA02563056C6D7B4 /* Pods-WOCServices_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75357998F1AA307E514F326B4C36B26A /* Pods-WOCServices_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DBABC7574AE25E4324D2F3EE7A12E3F /* BHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F1DE63AF91D0A9FD262824CFC02F21 /* BHAppDelegate.m */; };
+		920C5922D8ECBEF8F315B41869E74B02 /* BHModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DDD0C511AE6C2B1694C6FCD93832FD /* BHModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99E0D8AFD723BD882B73722B6D1EF6C0 /* BHTimeProfiler.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF8CF75DA2F2B5CEF154E443CD5A16D /* BHTimeProfiler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B42E4E5F36CEA87076928F40CBDED00 /* BHContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D84314AE7446E788CD704AA9D5FD90D /* BHContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BC1C6D1757563D07923EF9BBE2E8CB1 /* BHAnnotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6779F20B2C4171342D9FF996737C77A8 /* BHAnnotation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA5762FE5DF2EBD79A45AD6245E3E1BB /* BHWatchDog.h in Headers */ = {isa = PBXBuildFile; fileRef = 33D9AE76B60AED86C3CA01456C12B20F /* BHWatchDog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC10097ED6997C889545C5C87014988F /* BHTimeProfiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F8AC05F6193A4390F5229E0B8584E8 /* BHTimeProfiler.m */; };
+		AE00926AD1131D2FFDF149ADD77A7166 /* BHAppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 19F27E7FD8C5C4108ECE2D28D6CE89D7 /* BHAppDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFDC685601451443173D4B9A883EE7EE /* BHRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 99D6E7AF136ACEAF7976B47A0D85090C /* BHRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0616D82B30E7D83C72E318D51692345 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		E07D22FCE99F85548C6CF34762F7B0AC /* BHContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 543E75D7FB2E1CE4B1823DF0665651DC /* BHContext.m */; };
+		E53DBA631561FEBD27E2811993C37016 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
+		EF34E6840F65A08F92CB4014B18640CB /* BeeHive.h in Headers */ = {isa = PBXBuildFile; fileRef = B576F0815DB13726DA6860AD3AC6E568 /* BeeHive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F138F0F9336915B10289E8A210A77360 /* BHDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = FF890E12737A08D171656C3C5FB2227F /* BHDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A70AB0E333BA07F0E5A2F69B07A42E /* Pods-WOCServices_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACAB920112C65F23B5E5E02C588F750B /* Pods-WOCServices_Example-dummy.m */; };
+		FBFDE6BBB8E1A5D393FAD93F3E18E5DF /* BeeHive.m in Sources */ = {isa = PBXBuildFile; fileRef = FB98DD2944BF9A32FADF99AA9EDB6F5D /* BeeHive.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DFF87928A5B9CF2BC24B3852DE49D9B8 /* PBXContainerItemProxy */ = {
+		41CE0040B22A21EBD43835D1DDF61E82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F7704A934672308A6649820CB2899141;
-			remoteInfo = "Pods-WOCServices_Example";
+			remoteGlobalIDString = 44247EA73414AD2DD3C8CFD635A442A9;
+			remoteInfo = BeeHive;
 		};
-		E0B0E35752579A984FA0651D84BC6B67 /* PBXContainerItemProxy */ = {
+		466F2724B10FA87A4E8EE41D021F6A37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 91CE4C8675045F21D67321ACDA452485;
 			remoteInfo = WOCServices;
 		};
+		8B95753FF1AA3FB6089688D3910B5132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7704A934672308A6649820CB2899141;
+			remoteInfo = "Pods-WOCServices_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01ABDD3BC60A5B67E0D20B2D4D8DE960 /* BeeHive.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BeeHive.bundle; path = BeeHive/BeeHive.bundle; sourceTree = "<group>"; };
+		068B0D38EB33D2553F7B88FF9CB600F5 /* BeeHive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeeHive-prefix.pch"; sourceTree = "<group>"; };
 		0CF8A7C61BAE08F96EE663F1FB4F6E5B /* Pods-WOCServices_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOCServices_Example-Info.plist"; sourceTree = "<group>"; };
 		1202D14B0330DA034FA4EBB376ABE604 /* Pods-WOCServices_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOCServices_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		130158A239325B01E7FD3EA29D5DDF2A /* Pods-WOCServices_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WOCServices_Example.modulemap"; sourceTree = "<group>"; };
+		169121A4EDDFB6A5D9B0F695FCD7A3BC /* BHServiceManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHServiceManager.m; path = BeeHive/BHServiceManager.m; sourceTree = "<group>"; };
+		16DC86BE39A76D5BEA9DC1524EC1B3FD /* BHServiceProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceProtocol.h; path = BeeHive/BHServiceProtocol.h; sourceTree = "<group>"; };
 		1889078037C283933231564988C511CF /* Pods-WOCServices_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WOCServices_Tests"; path = Pods_WOCServices_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CF9979E5C44B6B8DE4E4D70E8CD5845 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		2E8F65A5F1AF4E2F1CEC3F4CC8173917 /* WOCServices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WOCServices.modulemap; sourceTree = "<group>"; };
-		363CDE35DFE009C219E63D5BCA566333 /* WOCServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WOCServices.debug.xcconfig; sourceTree = "<group>"; };
+		19925C958C14919F5AC585D36DC2CD64 /* BHConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHConfig.h; path = BeeHive/BHConfig.h; sourceTree = "<group>"; };
+		19F27E7FD8C5C4108ECE2D28D6CE89D7 /* BHAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAppDelegate.h; path = BeeHive/BHAppDelegate.h; sourceTree = "<group>"; };
+		1ABDFEF7CD382FF759E43C4873E74FA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1B7B5F934245240B05CEFC7A2BE8B566 /* BHCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHCommon.h; path = BeeHive/BHCommon.h; sourceTree = "<group>"; };
+		26F591A3192D40B3A445F2C5EE87FE3B /* BeeHive */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BeeHive; path = BeeHive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D9AE76B60AED86C3CA01456C12B20F /* BHWatchDog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHWatchDog.h; path = BeeHive/BHWatchDog.h; sourceTree = "<group>"; };
+		3D84314AE7446E788CD704AA9D5FD90D /* BHContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHContext.h; path = BeeHive/BHContext.h; sourceTree = "<group>"; };
+		44DDD0C511AE6C2B1694C6FCD93832FD /* BHModuleProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleProtocol.h; path = BeeHive/BHModuleProtocol.h; sourceTree = "<group>"; };
+		47B15C810E5A5BBFAB535A9C9B9EE204 /* BHConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHConfig.m; path = BeeHive/BHConfig.m; sourceTree = "<group>"; };
+		47F1DE63AF91D0A9FD262824CFC02F21 /* BHAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAppDelegate.m; path = BeeHive/BHAppDelegate.m; sourceTree = "<group>"; };
 		496FA11BD3B573720AB00D88A7AAF05E /* Pods-WOCServices_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WOCServices_Example-frameworks.sh"; sourceTree = "<group>"; };
-		63E607BF8F4B8A95E8DEB5C1835F0872 /* WOCServices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WOCServices-prefix.pch"; sourceTree = "<group>"; };
-		6A398ABCA4D8C2956320FF8AFCCFA726 /* WOCServices */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WOCServices; path = WOCServices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4D9B4DEE71495CBBC8969126D26BBA6D /* WOCProtocolRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WOCProtocolRouter.h; path = WOCServices/Classes/WOCProtocolRouter.h; sourceTree = "<group>"; };
+		543E75D7FB2E1CE4B1823DF0665651DC /* BHContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHContext.m; path = BeeHive/BHContext.m; sourceTree = "<group>"; };
+		64769D3C131BE600F1B7512AC1B79113 /* WOCServices.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WOCServices.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		66D56A94454E92D912A5704B270BB0AA /* BeeHive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHive.debug.xcconfig; sourceTree = "<group>"; };
+		6779F20B2C4171342D9FF996737C77A8 /* BHAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHAnnotation.h; path = BeeHive/BHAnnotation.h; sourceTree = "<group>"; };
+		72A1FB38FD1BE2FADC7F4E0F1AC90045 /* BeeHive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BeeHive-Info.plist"; sourceTree = "<group>"; };
+		746F60927ABEF1A7372E32A2F5BF5B4C /* WOCServices.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WOCServices.debug.xcconfig; sourceTree = "<group>"; };
+		74D18192038B4453C0B566BB3B2DA012 /* BeeHive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BeeHive-umbrella.h"; sourceTree = "<group>"; };
 		75357998F1AA307E514F326B4C36B26A /* Pods-WOCServices_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WOCServices_Example-umbrella.h"; sourceTree = "<group>"; };
+		7CB740FFFF8AAC7216D9416101C5B589 /* BeeHive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BeeHive-dummy.m"; sourceTree = "<group>"; };
 		7E0D9F0A28296AD05C20A51BC74A4FB1 /* Pods-WOCServices_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOCServices_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		81BF919FD8C1F3345F11EC8889E23D0E /* WOCServices.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WOCServices.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8311B4033F0F106EC1B5D6B8B03185CE /* WOCServices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WOCServices-umbrella.h"; sourceTree = "<group>"; };
 		8380901C459547EBFF35DEAAF6868362 /* Pods-WOCServices_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WOCServices_Tests.modulemap"; sourceTree = "<group>"; };
+		85D9185DB9C91355D2637923D70F9D31 /* BHModuleManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHModuleManager.h; path = BeeHive/BHModuleManager.h; sourceTree = "<group>"; };
+		881CB1570CCAF1A5AFCC231389FB0DE9 /* BHModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHModuleManager.m; path = BeeHive/BHModuleManager.m; sourceTree = "<group>"; };
+		917686380B45D61C2EAE143B4477F466 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9293347AE6AFDE4FDECB717948ECA387 /* Pods-WOCServices_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOCServices_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		98F8AC05F6193A4390F5229E0B8584E8 /* BHTimeProfiler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHTimeProfiler.m; path = BeeHive/BHTimeProfiler.m; sourceTree = "<group>"; };
+		9937D5E3B0C0F3E989BBBE35AE86891F /* BHRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHRouter.m; path = BeeHive/BHRouter.m; sourceTree = "<group>"; };
+		99D6E7AF136ACEAF7976B47A0D85090C /* BHRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHRouter.h; path = BeeHive/BHRouter.h; sourceTree = "<group>"; };
 		9A0F954EC1889AFA302F8FCAB691CB87 /* Pods-WOCServices_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOCServices_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2A6C9043EF3174620760018D3F2893B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WOCServices/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		ACAB920112C65F23B5E5E02C588F750B /* Pods-WOCServices_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WOCServices_Example-dummy.m"; sourceTree = "<group>"; };
+		B576F0815DB13726DA6860AD3AC6E568 /* BeeHive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BeeHive.h; path = BeeHive/BeeHive.h; sourceTree = "<group>"; };
 		B5978E6D41BF0723550980824A014864 /* Pods-WOCServices_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WOCServices_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BC60AEA1933466D23FCEC655E92FF0CD /* WOCServices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WOCServices-dummy.m"; sourceTree = "<group>"; };
-		C0E933BEE3BB4E5BEE3064272A06D77B /* WOCServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WOCServices.release.xcconfig; sourceTree = "<group>"; };
-		C3EFC94432917541364A7D41ACBE16DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BAEF2AADDE02AF484DC1411629AB111A /* WOCServices.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WOCServices.release.xcconfig; sourceTree = "<group>"; };
+		BEB96D3C16FE3AF5D12410DB4E5DC2F6 /* BHAnnotation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHAnnotation.m; path = BeeHive/BHAnnotation.m; sourceTree = "<group>"; };
+		C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C568745E0926A27A94F5660EBF91554F /* BHWatchDog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BHWatchDog.m; path = BeeHive/BHWatchDog.m; sourceTree = "<group>"; };
 		C76B5D4F1B96A601477AD551134A3A8B /* Pods-WOCServices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOCServices_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAD8837F0B575E11B84158B42BCA1B8C /* WOCServices-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WOCServices-Info.plist"; sourceTree = "<group>"; };
 		DAB576FCFD9243CD35C7761D6595BEFA /* Pods-WOCServices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WOCServices_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DBFD5BCC8C94071CBE9CCA005A7931ED /* BHServiceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHServiceManager.h; path = BeeHive/BHServiceManager.h; sourceTree = "<group>"; };
+		DFF8CF75DA2F2B5CEF154E443CD5A16D /* BHTimeProfiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHTimeProfiler.h; path = BeeHive/BHTimeProfiler.h; sourceTree = "<group>"; };
 		E0DAA54F24CF790B769E4870C3CE34E7 /* Pods-WOCServices_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WOCServices_Example"; path = Pods_WOCServices_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E11F7EE532876CF7F6BE89633F21DD0A /* Pods-WOCServices_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WOCServices_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA2DD47FF2E5C55E9838122C686DA3EE /* BeeHive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BeeHive.release.xcconfig; sourceTree = "<group>"; };
 		ED2A7C8BF968A4E3229B4A338691716D /* Pods-WOCServices_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WOCServices_Tests-umbrella.h"; sourceTree = "<group>"; };
 		ED6791DE1A7D0A62A1850C4FD49D36D6 /* Pods-WOCServices_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WOCServices_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F545BE5440EBB95DCCA0138E39733595 /* BeeHive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BeeHive.modulemap; sourceTree = "<group>"; };
 		F72CBF38139FDDDDDD595F3026176BDF /* Pods-WOCServices_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WOCServices_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB98DD2944BF9A32FADF99AA9EDB6F5D /* BeeHive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BeeHive.m; path = BeeHive/BeeHive.m; sourceTree = "<group>"; };
+		FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		FF890E12737A08D171656C3C5FB2227F /* BHDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BHDefines.h; path = BeeHive/BHDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		132CB070984BE80D666C160E65CF8C80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408903E4378F6618845188A159CF311B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21BB67C61CDFE5C4E180EB94EE1747CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0616D82B30E7D83C72E318D51692345 /* Foundation.framework in Frameworks */,
+				4897811A953FB76418D9997B3D505CE6 /* QuartzCore.framework in Frameworks */,
+				19AFBCBF61D3D21D0540A147EE5D0174 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4BB50EAC73354F24891C5CBD152D98F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,25 +173,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EA51A8864E022C8B7E65239E5607289 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAF0119BC0D8B308C7C0930E948F99B0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5FDA5ACE614148177A297B2DEC19D4E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4DC99F444DC6783F3A18BBDBE5A3D9AD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		025A0C5CCE24110AD5BCB0AFD81415D3 /* BeeHive */ = {
+			isa = PBXGroup;
+			children = (
+				B576F0815DB13726DA6860AD3AC6E568 /* BeeHive.h */,
+				FB98DD2944BF9A32FADF99AA9EDB6F5D /* BeeHive.m */,
+				6779F20B2C4171342D9FF996737C77A8 /* BHAnnotation.h */,
+				BEB96D3C16FE3AF5D12410DB4E5DC2F6 /* BHAnnotation.m */,
+				19F27E7FD8C5C4108ECE2D28D6CE89D7 /* BHAppDelegate.h */,
+				47F1DE63AF91D0A9FD262824CFC02F21 /* BHAppDelegate.m */,
+				1B7B5F934245240B05CEFC7A2BE8B566 /* BHCommon.h */,
+				19925C958C14919F5AC585D36DC2CD64 /* BHConfig.h */,
+				47B15C810E5A5BBFAB535A9C9B9EE204 /* BHConfig.m */,
+				3D84314AE7446E788CD704AA9D5FD90D /* BHContext.h */,
+				543E75D7FB2E1CE4B1823DF0665651DC /* BHContext.m */,
+				FF890E12737A08D171656C3C5FB2227F /* BHDefines.h */,
+				85D9185DB9C91355D2637923D70F9D31 /* BHModuleManager.h */,
+				881CB1570CCAF1A5AFCC231389FB0DE9 /* BHModuleManager.m */,
+				44DDD0C511AE6C2B1694C6FCD93832FD /* BHModuleProtocol.h */,
+				99D6E7AF136ACEAF7976B47A0D85090C /* BHRouter.h */,
+				9937D5E3B0C0F3E989BBBE35AE86891F /* BHRouter.m */,
+				DBFD5BCC8C94071CBE9CCA005A7931ED /* BHServiceManager.h */,
+				169121A4EDDFB6A5D9B0F695FCD7A3BC /* BHServiceManager.m */,
+				16DC86BE39A76D5BEA9DC1524EC1B3FD /* BHServiceProtocol.h */,
+				DFF8CF75DA2F2B5CEF154E443CD5A16D /* BHTimeProfiler.h */,
+				98F8AC05F6193A4390F5229E0B8584E8 /* BHTimeProfiler.m */,
+				33D9AE76B60AED86C3CA01456C12B20F /* BHWatchDog.h */,
+				C568745E0926A27A94F5660EBF91554F /* BHWatchDog.m */,
+				8EFB561B9A942DD46D746A319EE55172 /* Resources */,
+				C208A6C53D45BF88DC75AB1262CA8701 /* Support Files */,
+			);
+			name = BeeHive;
+			path = BeeHive;
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84500DE8FA3C1A04FB6C1A7869926382 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		243103AFFB385FA26E61E5081CB7696B /* Pods-WOCServices_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,24 +233,6 @@
 			);
 			name = "Pods-WOCServices_Example";
 			path = "Target Support Files/Pods-WOCServices_Example";
-			sourceTree = "<group>";
-		};
-		4AECF7AC3405D6FA84380C51A02A5ECE /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C3EFC94432917541364A7D41ACBE16DB /* LICENSE */,
-				2CF9979E5C44B6B8DE4E4D70E8CD5845 /* README.md */,
-				81BF919FD8C1F3345F11EC8889E23D0E /* WOCServices.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		582846E8183DB1E417BCFDE823160152 /* Pods-WOCServices_Tests */ = {
@@ -151,21 +251,28 @@
 			path = "Target Support Files/Pods-WOCServices_Tests";
 			sourceTree = "<group>";
 		};
-		6BF656CD40EB1164E4BDCE33A6E98CF5 /* WOCServices */ = {
+		84500DE8FA3C1A04FB6C1A7869926382 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A2A6C9043EF3174620760018D3F2893B /* ReplaceMe.m */,
-				4AECF7AC3405D6FA84380C51A02A5ECE /* Pod */,
-				C83AC855DFCB504638DE6EF9C30C1796 /* Support Files */,
+				FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */,
+				FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */,
+				C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */,
 			);
-			name = WOCServices;
-			path = ../..;
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8EFB561B9A942DD46D746A319EE55172 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01ABDD3BC60A5B67E0D20B2D4D8DE960 /* BeeHive.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		97BB829CF3A6FE13A73AFA54DE0552E5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6BF656CD40EB1164E4BDCE33A6E98CF5 /* WOCServices */,
+				E47DB6B5137729C66685CA43019398F0 /* WOCServices */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -179,26 +286,36 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AC506EEF7BE20C2F1EFA4DF98D1B5AF8 /* Products */ = {
+		ADACF0E70FD4289E7D48BAE72DE6C4D0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E0DAA54F24CF790B769E4870C3CE34E7 /* Pods-WOCServices_Example */,
-				1889078037C283933231564988C511CF /* Pods-WOCServices_Tests */,
-				6A398ABCA4D8C2956320FF8AFCCFA726 /* WOCServices */,
+				1ABDFEF7CD382FF759E43C4873E74FA5 /* LICENSE */,
+				917686380B45D61C2EAE143B4477F466 /* README.md */,
+				64769D3C131BE600F1B7512AC1B79113 /* WOCServices.podspec */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		C83AC855DFCB504638DE6EF9C30C1796 /* Support Files */ = {
+		C208A6C53D45BF88DC75AB1262CA8701 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2E8F65A5F1AF4E2F1CEC3F4CC8173917 /* WOCServices.modulemap */,
-				BC60AEA1933466D23FCEC655E92FF0CD /* WOCServices-dummy.m */,
-				CAD8837F0B575E11B84158B42BCA1B8C /* WOCServices-Info.plist */,
-				63E607BF8F4B8A95E8DEB5C1835F0872 /* WOCServices-prefix.pch */,
-				8311B4033F0F106EC1B5D6B8B03185CE /* WOCServices-umbrella.h */,
-				363CDE35DFE009C219E63D5BCA566333 /* WOCServices.debug.xcconfig */,
-				C0E933BEE3BB4E5BEE3064272A06D77B /* WOCServices.release.xcconfig */,
+				F545BE5440EBB95DCCA0138E39733595 /* BeeHive.modulemap */,
+				7CB740FFFF8AAC7216D9416101C5B589 /* BeeHive-dummy.m */,
+				72A1FB38FD1BE2FADC7F4E0F1AC90045 /* BeeHive-Info.plist */,
+				068B0D38EB33D2553F7B88FF9CB600F5 /* BeeHive-prefix.pch */,
+				74D18192038B4453C0B566BB3B2DA012 /* BeeHive-umbrella.h */,
+				66D56A94454E92D912A5704B270BB0AA /* BeeHive.debug.xcconfig */,
+				EA2DD47FF2E5C55E9838122C686DA3EE /* BeeHive.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BeeHive";
+			sourceTree = "<group>";
+		};
+		C98024280F38AFCD1E4825C4B63A55CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				746F60927ABEF1A7372E32A2F5BF5B4C /* WOCServices.debug.xcconfig */,
+				BAEF2AADDE02AF484DC1411629AB111A /* WOCServices.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/WOCServices";
@@ -209,36 +326,72 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				97BB829CF3A6FE13A73AFA54DE0552E5 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				AC506EEF7BE20C2F1EFA4DF98D1B5AF8 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				D9F9ADE51A866B7D2B475C48E3F9A873 /* Pods */,
+				E8ADE8852C157D916FC650567521C0D8 /* Products */,
 				9C0C9C7314A8D6B569D24AE10BDE5381 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D9F9ADE51A866B7D2B475C48E3F9A873 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				025A0C5CCE24110AD5BCB0AFD81415D3 /* BeeHive */,
 			);
-			name = Frameworks;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E47DB6B5137729C66685CA43019398F0 /* WOCServices */ = {
+			isa = PBXGroup;
+			children = (
+				4D9B4DEE71495CBBC8969126D26BBA6D /* WOCProtocolRouter.h */,
+				ADACF0E70FD4289E7D48BAE72DE6C4D0 /* Pod */,
+				C98024280F38AFCD1E4825C4B63A55CD /* Support Files */,
+			);
+			name = WOCServices;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E8ADE8852C157D916FC650567521C0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26F591A3192D40B3A445F2C5EE87FE3B /* BeeHive */,
+				E0DAA54F24CF790B769E4870C3CE34E7 /* Pods-WOCServices_Example */,
+				1889078037C283933231564988C511CF /* Pods-WOCServices_Tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		572318545B1532BD66D6F1137C268D03 /* Headers */ = {
+		0D4F366E2C93EBB05724FBFD6692429F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E6B20C2D1D09EF651FB975D18496A0D /* WOCServices-umbrella.h in Headers */,
+				79A74DB87CF182A9CA02563056C6D7B4 /* Pods-WOCServices_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB1CCDB49EC09FDEBB45AC09C4155B88 /* Headers */ = {
+		A006BB454BEFA2C2F915E09906C7519A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D7726A685117567C183555622B045E1 /* Pods-WOCServices_Example-umbrella.h in Headers */,
+				EF34E6840F65A08F92CB4014B18640CB /* BeeHive.h in Headers */,
+				57D896DB7DF96AA9EA6ADAF14F4E2D4C /* BeeHive-umbrella.h in Headers */,
+				9BC1C6D1757563D07923EF9BBE2E8CB1 /* BHAnnotation.h in Headers */,
+				AE00926AD1131D2FFDF149ADD77A7166 /* BHAppDelegate.h in Headers */,
+				1ACA84460C2EF588F1E795846987A002 /* BHCommon.h in Headers */,
+				345A63C45C1148F9FB999EF34A6862E4 /* BHConfig.h in Headers */,
+				9B42E4E5F36CEA87076928F40CBDED00 /* BHContext.h in Headers */,
+				F138F0F9336915B10289E8A210A77360 /* BHDefines.h in Headers */,
+				795C534BD0E6597278D7553B387FA6A3 /* BHModuleManager.h in Headers */,
+				920C5922D8ECBEF8F315B41869E74B02 /* BHModuleProtocol.h in Headers */,
+				CFDC685601451443173D4B9A883EE7EE /* BHRouter.h in Headers */,
+				22EEEDFF80329C63A742FE471B71188F /* BHServiceManager.h in Headers */,
+				4EF874A792214C851B8C0C577231A12B /* BHServiceProtocol.h in Headers */,
+				99E0D8AFD723BD882B73722B6D1EF6C0 /* BHTimeProfiler.h in Headers */,
+				AA5762FE5DF2EBD79A45AD6245E3E1BB /* BHWatchDog.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,22 +406,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		91CE4C8675045F21D67321ACDA452485 /* WOCServices */ = {
+		44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D98202F57A771CE644E5A5712471E426 /* Build configuration list for PBXNativeTarget "WOCServices" */;
+			buildConfigurationList = E0977C62EFF76C89DC8C51034284ECFE /* Build configuration list for PBXNativeTarget "BeeHive" */;
 			buildPhases = (
-				572318545B1532BD66D6F1137C268D03 /* Headers */,
-				4261133911D3A1CDC07F41C7069329DE /* Sources */,
-				7EA51A8864E022C8B7E65239E5607289 /* Frameworks */,
-				7B21CED0F634F62E0860ACFC5C08A738 /* Resources */,
+				A006BB454BEFA2C2F915E09906C7519A /* Headers */,
+				90FFB037251AEF41A7DA1ABF93069D96 /* Sources */,
+				21BB67C61CDFE5C4E180EB94EE1747CF /* Frameworks */,
+				871FC8BF7F18D0AA80E165997634DECA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WOCServices;
-			productName = WOCServices;
-			productReference = 6A398ABCA4D8C2956320FF8AFCCFA726 /* WOCServices */;
+			name = BeeHive;
+			productName = BeeHive;
+			productReference = 26F591A3192D40B3A445F2C5EE87FE3B /* BeeHive */;
 			productType = "com.apple.product-type.framework";
 		};
 		9C30204D67D3FB99C9F662EB50F8CC75 /* Pods-WOCServices_Tests */ = {
@@ -283,7 +436,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				7BEB42188C98E275D5F6219093FAB70E /* PBXTargetDependency */,
+				7AA370440599F4A4D71AD68C608F45E6 /* PBXTargetDependency */,
 			);
 			name = "Pods-WOCServices_Tests";
 			productName = Pods_WOCServices_Tests;
@@ -292,17 +445,18 @@
 		};
 		F7704A934672308A6649820CB2899141 /* Pods-WOCServices_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE7DEE781C80713D25CE55E8E4C637AE /* Build configuration list for PBXNativeTarget "Pods-WOCServices_Example" */;
+			buildConfigurationList = 4597DE1A1608DE72950EF74C6E53446F /* Build configuration list for PBXNativeTarget "Pods-WOCServices_Example" */;
 			buildPhases = (
-				AB1CCDB49EC09FDEBB45AC09C4155B88 /* Headers */,
-				AC605A337528432D984F2505CFC22494 /* Sources */,
-				F5FDA5ACE614148177A297B2DEC19D4E /* Frameworks */,
-				665C5781544D31FB65C26C5D19BD4BF3 /* Resources */,
+				0D4F366E2C93EBB05724FBFD6692429F /* Headers */,
+				CC25A85399CC62EF63AF587EB0CFA527 /* Sources */,
+				132CB070984BE80D666C160E65CF8C80 /* Frameworks */,
+				C75D45892B11E51C509CA7501712AD8D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2258A8FEE0280941DD4874A608CC8B5F /* PBXTargetDependency */,
+				1CB5E3DA25B74069F7EEC1CFCAF922E7 /* PBXTargetDependency */,
+				99AB21E30F38231671F351AE1B8A5F87 /* PBXTargetDependency */,
 			);
 			name = "Pods-WOCServices_Example";
 			productName = Pods_WOCServices_Example;
@@ -327,10 +481,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = AC506EEF7BE20C2F1EFA4DF98D1B5AF8 /* Products */;
+			productRefGroup = E8ADE8852C157D916FC650567521C0D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */,
 				F7704A934672308A6649820CB2899141 /* Pods-WOCServices_Example */,
 				9C30204D67D3FB99C9F662EB50F8CC75 /* Pods-WOCServices_Tests */,
 				91CE4C8675045F21D67321ACDA452485 /* WOCServices */,
@@ -346,14 +501,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		665C5781544D31FB65C26C5D19BD4BF3 /* Resources */ = {
+		871FC8BF7F18D0AA80E165997634DECA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F6BD9ED14E5509C60BE6CC2E8A7E474 /* BeeHive.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7B21CED0F634F62E0860ACFC5C08A738 /* Resources */ = {
+		C75D45892B11E51C509CA7501712AD8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,15 +519,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4261133911D3A1CDC07F41C7069329DE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B22A469708DACA4F800E51B8894FA94 /* ReplaceMe.m in Sources */,
-				58586708BD0EFC0DAEAA56EA05175887 /* WOCServices-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5DC84DAF27B7DC1003DE185B872626C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -380,38 +527,74 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC605A337528432D984F2505CFC22494 /* Sources */ = {
+		90FFB037251AEF41A7DA1ABF93069D96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F3533A07408F44B900B89B7823D09B0 /* Pods-WOCServices_Example-dummy.m in Sources */,
+				FBFDE6BBB8E1A5D393FAD93F3E18E5DF /* BeeHive.m in Sources */,
+				4EA871BAEFB248593090D7ACE1D7DA4E /* BeeHive-dummy.m in Sources */,
+				204A1C21FF02F13E5ECDAFAC3A557C71 /* BHAnnotation.m in Sources */,
+				7DBABC7574AE25E4324D2F3EE7A12E3F /* BHAppDelegate.m in Sources */,
+				37AF72385FEE12A05F230D5646C228CB /* BHConfig.m in Sources */,
+				E07D22FCE99F85548C6CF34762F7B0AC /* BHContext.m in Sources */,
+				4AFE40CADE104D72CEF74333EA67D3DE /* BHModuleManager.m in Sources */,
+				4DF04CF0AF59E16719D13B6CBCE41E0F /* BHRouter.m in Sources */,
+				61F14E8FEB83257D1789017C507B3E66 /* BHServiceManager.m in Sources */,
+				AC10097ED6997C889545C5C87014988F /* BHTimeProfiler.m in Sources */,
+				67EAB9C1E4BAB57855D3A49F3F3E2D5F /* BHWatchDog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC25A85399CC62EF63AF587EB0CFA527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A70AB0E333BA07F0E5A2F69B07A42E /* Pods-WOCServices_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2258A8FEE0280941DD4874A608CC8B5F /* PBXTargetDependency */ = {
+		1CB5E3DA25B74069F7EEC1CFCAF922E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = WOCServices;
-			target = 91CE4C8675045F21D67321ACDA452485 /* WOCServices */;
-			targetProxy = E0B0E35752579A984FA0651D84BC6B67 /* PBXContainerItemProxy */;
+			name = BeeHive;
+			target = 44247EA73414AD2DD3C8CFD635A442A9 /* BeeHive */;
+			targetProxy = 41CE0040B22A21EBD43835D1DDF61E82 /* PBXContainerItemProxy */;
 		};
-		7BEB42188C98E275D5F6219093FAB70E /* PBXTargetDependency */ = {
+		7AA370440599F4A4D71AD68C608F45E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WOCServices_Example";
 			target = F7704A934672308A6649820CB2899141 /* Pods-WOCServices_Example */;
-			targetProxy = DFF87928A5B9CF2BC24B3852DE49D9B8 /* PBXContainerItemProxy */;
+			targetProxy = 8B95753FF1AA3FB6089688D3910B5132 /* PBXContainerItemProxy */;
+		};
+		99AB21E30F38231671F351AE1B8A5F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WOCServices;
+			target = 91CE4C8675045F21D67321ACDA452485 /* WOCServices */;
+			targetProxy = 466F2724B10FA87A4E8EE41D021F6A37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1BBB0711AEC456470E9C60E915EDFD6F /* Release */ = {
+		1E5B759408CFFCE05C493E7C3C07CAD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C76B5D4F1B96A601477AD551134A3A8B /* Pods-WOCServices_Example.release.xcconfig */;
+			baseConfigurationReference = 746F60927ABEF1A7372E32A2F5BF5B4C /* WOCServices.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F27DB10DE1D0CE5F79E7711C31A4A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2DD47FF2E5C55E9838122C686DA3EE /* BeeHive.release.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -420,56 +603,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WOCServices_Example/Pods-WOCServices_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/BeeHive/BeeHive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeeHive/BeeHive-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WOCServices_Example/Pods-WOCServices_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/BeeHive/BeeHive.modulemap";
+				PRODUCT_MODULE_NAME = BeeHive;
+				PRODUCT_NAME = BeeHive;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		2A82BB9C7A9B3BB24145A88151DA5B47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 363CDE35DFE009C219E63D5BCA566333 /* WOCServices.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WOCServices/WOCServices-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WOCServices/WOCServices-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WOCServices/WOCServices.modulemap";
-				PRODUCT_MODULE_NAME = WOCServices;
-				PRODUCT_NAME = WOCServices;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		40FA20C0BA40D7A8E545D367CD72FA84 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -504,9 +655,9 @@
 			};
 			name = Debug;
 		};
-		4AF6C3785C03D2B3370E68A90CEE16A2 /* Debug */ = {
+		411A960EEA62D9C937B20598B8A02A05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DAB576FCFD9243CD35C7761D6595BEFA /* Pods-WOCServices_Example.debug.xcconfig */;
+			baseConfigurationReference = C76B5D4F1B96A601477AD551134A3A8B /* Pods-WOCServices_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -532,10 +683,56 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5430F7183EA233333F4A91EAF9063B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D56A94454E92D912A5704B270BB0AA /* BeeHive.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BeeHive/BeeHive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BeeHive/BeeHive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BeeHive/BeeHive.modulemap";
+				PRODUCT_MODULE_NAME = BeeHive;
+				PRODUCT_NAME = BeeHive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		74B22A3199474D2F4EFE887F583B5FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAEF2AADDE02AF484DC1411629AB111A /* WOCServices.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -599,10 +796,11 @@
 			};
 			name = Release;
 		};
-		979A98C11D74284B775D15449971A074 /* Release */ = {
+		CB572856BBD860ED7C0E7740683F01FD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0E933BEE3BB4E5BEE3064272A06D77B /* WOCServices.release.xcconfig */;
+			baseConfigurationReference = DAB576FCFD9243CD35C7761D6595BEFA /* Pods-WOCServices_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -612,24 +810,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WOCServices/WOCServices-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WOCServices/WOCServices-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-WOCServices_Example/Pods-WOCServices_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WOCServices/WOCServices.modulemap";
-				PRODUCT_MODULE_NAME = WOCServices;
-				PRODUCT_NAME = WOCServices;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WOCServices_Example/Pods-WOCServices_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -734,6 +932,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4597DE1A1608DE72950EF74C6E53446F /* Build configuration list for PBXNativeTarget "Pods-WOCServices_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB572856BBD860ED7C0E7740683F01FD /* Debug */,
+				411A960EEA62D9C937B20598B8A02A05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -743,11 +950,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D98202F57A771CE644E5A5712471E426 /* Build configuration list for PBXNativeTarget "WOCServices" */ = {
+		E0977C62EFF76C89DC8C51034284ECFE /* Build configuration list for PBXNativeTarget "BeeHive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A82BB9C7A9B3BB24145A88151DA5B47 /* Debug */,
-				979A98C11D74284B775D15449971A074 /* Release */,
+				5430F7183EA233333F4A91EAF9063B1F /* Debug */,
+				2F27DB10DE1D0CE5F79E7711C31A4A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -761,11 +968,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE7DEE781C80713D25CE55E8E4C637AE /* Build configuration list for PBXNativeTarget "Pods-WOCServices_Example" */ = {
+		F1802F48F171FFD98E7A9BA5AC4380C9 /* Build configuration list for PBXAggregateTarget "WOCServices" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AF6C3785C03D2B3370E68A90CEE16A2 /* Debug */,
-				1BBB0711AEC456470E9C60E915EDFD6F /* Release */,
+				1E5B759408CFFCE05C493E7C3C07CAD8 /* Debug */,
+				74B22A3199474D2F4EFE887F583B5FDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
