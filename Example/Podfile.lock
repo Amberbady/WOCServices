@@ -1,0 +1,16 @@
+PODS:
+  - WOCServices (0.1.0)
+
+DEPENDENCIES:
+  - WOCServices (from `../`)
+
+EXTERNAL SOURCES:
+  WOCServices:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WOCServices: c9c0ce8a513770f34423f076da84ce54a80246b1
+
+PODFILE CHECKSUM: 38526e4820be7076c58781f2cb42b01362e07962
+
+COCOAPODS: 1.12.1

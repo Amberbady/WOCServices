@@ -1,0 +1,6 @@
+framework module WOCServices {
+  umbrella header "WOCServices-umbrella.h"
+
+  export *
+  module * { export * }
+}
