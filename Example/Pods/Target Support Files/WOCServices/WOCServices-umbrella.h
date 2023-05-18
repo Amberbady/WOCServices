@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "WOCProtocolMain.h"
 #import "WOCProtocolRouter.h"
 #import "WOCServicesTool.h"
 
