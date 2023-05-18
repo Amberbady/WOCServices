@@ -3,20 +3,25 @@
   "version": "0.1.0",
   "summary": "A short description of WOCServices.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/廖燊/WOCServices",
+  "homepage": "https://github.com/Amberbady/WOCServices",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "廖燊": "13690039192@163.com"
+    "Amberbady": "13690039192@163.com"
   },
   "source": {
-    "git": "https://github.com/廖燊/WOCServices.git",
+    "git": "https://github.com/Amberbady/WOCServices.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "WOCServices/Classes/**/*"
+  "source_files": "WOCServices/Classes/**/*",
+  "dependencies": {
+    "BeeHive": [
+      "1.1.1"
+    ]
+  }
 }

@@ -1,6 +1,7 @@
 PODS:
   - BeeHive (1.1.1)
-  - WOCServices (0.1.0)
+  - WOCServices (0.1.0):
+    - BeeHive (= 1.1.1)
 
 DEPENDENCIES:
   - BeeHive (= 1.1.1)
@@ -16,7 +17,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   BeeHive: 81b697e94e1ae0993eccf5388e195f3fbfe707a6
-  WOCServices: c9c0ce8a513770f34423f076da84ce54a80246b1
+  WOCServices: 34a327875aeb8044bd99a2125d91b2fb517fdded
 
 PODFILE CHECKSUM: 0818218c928a8b306c0bc2d93c219854ddb4174d
 
