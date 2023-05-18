@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  # 这里需要设置依赖关系，pod中才能进行调用，否则会报错，找不到对应文件
   s.dependency 'BeeHive', '1.1.1'
 end
